@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="indexprojeto.js"></script>
+    
+    <title>Gerar Cartão</title>
+</head>
+<body class="gerar-cartao">
+    <header>
+        <div class="menu-content">
+            <h1 class="logo"><i class="bi bi-activity"></i> AcademiaDeHeróis <i class="bi bi-activity"></i></h1>
+            <nav class="header-menu">
+                <ul class="list-itens">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Serviço.html">Serviços</a></li>
+                    <li><a href="GerarCartao.html">Gerar cartão PLUS Ultra</a></li>
+                    <li><a href="relatorio.html">Gerar Relatório</a></li>
+                    <li><a href="Administrador.html">Administrador</a></li>
+                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main-content">
+        <h1 class="primary-text1">COMPRA DE SERVIÇOS</h1>
+
+        
+    <div id="compraServicos">
+        <h2>Compra de Serviços</h2>
+        <label for="numeroCartaoCompra">Número do Cartão de Serviços:</label>
+        <input type="text" id="numeroCartaoCompra">
+        <ul id="listaServicos">
+        <!-- Lista de serviços disponíveis para compra -->
+        </ul>
+        <button onclick="efetuarCompra()">Efetuar Compra</button>
+    </div>
+
+    <script src="indexprojeto.js"></script>
+
+</body> 
+</html>
